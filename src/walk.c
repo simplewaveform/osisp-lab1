@@ -3,7 +3,6 @@
 #include <dirent.h>
 #include <errno.h>
 #include <sys/stat.h>
-#include <unistd.h>
 #include <limits.h>
 
 #ifndef PATH_MAX
@@ -42,22 +41,7 @@ void walk(const char *base_path) {
         int show = (!opt_l && !opt_d && !opt_f) || (opt_l && is_link) || (opt_d && is_dir) || (opt_f && is_reg);
 
         if (show) {
-            if (is_link) {
-                char target[PATH_MAX];
-                ssize_t len = readlink(full_path, target, sizeof(target) - 1);
-                if (len != -1) {
-                    target[len] = '\0';
-                    printf("%s -> %s\n", full_path, target);
-                } else {
-                    perror("readlink");
-                }
-            } else {
-                printf("%s\n", full_path);
-            }
-
-            if (opt_s) {
-                add_path(full_path);
-            }
+            add_path(full_path);
         }
 
         if (is_dir && !is_link) {
