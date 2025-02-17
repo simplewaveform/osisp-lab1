@@ -3,7 +3,7 @@ project(lab1 C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(lab1 src/main.c
+add_executable(dirwalk src/main.c
         src/args.c
         inc/args.h
         src/walk.c

@@ -1,3 +1,3 @@
-/Users/simple_waveform/Documents/programming/4/osisp/lab1/cmake-build-debug/CMakeFiles/lab1.dir
+/Users/simple_waveform/Documents/programming/4/osisp/lab1/cmake-build-debug/CMakeFiles/dirwalk.dir
 /Users/simple_waveform/Documents/programming/4/osisp/lab1/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/simple_waveform/Documents/programming/4/osisp/lab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

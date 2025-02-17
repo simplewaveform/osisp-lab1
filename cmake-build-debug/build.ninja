@@ -41,59 +41,59 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/simple_waveform/Documents/programming/4/osisp/lab1/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target lab1
+# Object build statements for EXECUTABLE target dirwalk
 
 
 #############################################
-# Order-only phony target for lab1
+# Order-only phony target for dirwalk
 
-build cmake_object_order_depends_target_lab1: phony || CMakeFiles/lab1.dir
+build cmake_object_order_depends_target_dirwalk: phony || CMakeFiles/dirwalk.dir
 
-build CMakeFiles/lab1.dir/src/main.c.o: C_COMPILER__lab1_unscanned_Debug /Users/simple_waveform/Documents/programming/4/osisp/lab1/src/main.c || cmake_object_order_depends_target_lab1
-  DEP_FILE = CMakeFiles/lab1.dir/src/main.c.o.d
+build CMakeFiles/dirwalk.dir/src/main.c.o: C_COMPILER__dirwalk_unscanned_Debug /Users/simple_waveform/Documents/programming/4/osisp/lab1/src/main.c || cmake_object_order_depends_target_dirwalk
+  DEP_FILE = CMakeFiles/dirwalk.dir/src/main.c.o.d
   FLAGS = -g -std=gnu2x -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/lab1.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab1.dir/src
+  OBJECT_DIR = CMakeFiles/dirwalk.dir
+  OBJECT_FILE_DIR = CMakeFiles/dirwalk.dir/src
 
-build CMakeFiles/lab1.dir/src/args.c.o: C_COMPILER__lab1_unscanned_Debug /Users/simple_waveform/Documents/programming/4/osisp/lab1/src/args.c || cmake_object_order_depends_target_lab1
-  DEP_FILE = CMakeFiles/lab1.dir/src/args.c.o.d
+build CMakeFiles/dirwalk.dir/src/args.c.o: C_COMPILER__dirwalk_unscanned_Debug /Users/simple_waveform/Documents/programming/4/osisp/lab1/src/args.c || cmake_object_order_depends_target_dirwalk
+  DEP_FILE = CMakeFiles/dirwalk.dir/src/args.c.o.d
   FLAGS = -g -std=gnu2x -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/lab1.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab1.dir/src
+  OBJECT_DIR = CMakeFiles/dirwalk.dir
+  OBJECT_FILE_DIR = CMakeFiles/dirwalk.dir/src
 
-build CMakeFiles/lab1.dir/src/walk.c.o: C_COMPILER__lab1_unscanned_Debug /Users/simple_waveform/Documents/programming/4/osisp/lab1/src/walk.c || cmake_object_order_depends_target_lab1
-  DEP_FILE = CMakeFiles/lab1.dir/src/walk.c.o.d
+build CMakeFiles/dirwalk.dir/src/walk.c.o: C_COMPILER__dirwalk_unscanned_Debug /Users/simple_waveform/Documents/programming/4/osisp/lab1/src/walk.c || cmake_object_order_depends_target_dirwalk
+  DEP_FILE = CMakeFiles/dirwalk.dir/src/walk.c.o.d
   FLAGS = -g -std=gnu2x -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/lab1.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab1.dir/src
+  OBJECT_DIR = CMakeFiles/dirwalk.dir
+  OBJECT_FILE_DIR = CMakeFiles/dirwalk.dir/src
 
-build CMakeFiles/lab1.dir/src/options.c.o: C_COMPILER__lab1_unscanned_Debug /Users/simple_waveform/Documents/programming/4/osisp/lab1/src/options.c || cmake_object_order_depends_target_lab1
-  DEP_FILE = CMakeFiles/lab1.dir/src/options.c.o.d
+build CMakeFiles/dirwalk.dir/src/options.c.o: C_COMPILER__dirwalk_unscanned_Debug /Users/simple_waveform/Documents/programming/4/osisp/lab1/src/options.c || cmake_object_order_depends_target_dirwalk
+  DEP_FILE = CMakeFiles/dirwalk.dir/src/options.c.o.d
   FLAGS = -g -std=gnu2x -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/lab1.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab1.dir/src
+  OBJECT_DIR = CMakeFiles/dirwalk.dir
+  OBJECT_FILE_DIR = CMakeFiles/dirwalk.dir/src
 
-build CMakeFiles/lab1.dir/src/paths.c.o: C_COMPILER__lab1_unscanned_Debug /Users/simple_waveform/Documents/programming/4/osisp/lab1/src/paths.c || cmake_object_order_depends_target_lab1
-  DEP_FILE = CMakeFiles/lab1.dir/src/paths.c.o.d
+build CMakeFiles/dirwalk.dir/src/paths.c.o: C_COMPILER__dirwalk_unscanned_Debug /Users/simple_waveform/Documents/programming/4/osisp/lab1/src/paths.c || cmake_object_order_depends_target_dirwalk
+  DEP_FILE = CMakeFiles/dirwalk.dir/src/paths.c.o.d
   FLAGS = -g -std=gnu2x -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/lab1.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab1.dir/src
+  OBJECT_DIR = CMakeFiles/dirwalk.dir
+  OBJECT_FILE_DIR = CMakeFiles/dirwalk.dir/src
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target lab1
+# Link build statements for EXECUTABLE target dirwalk
 
 
 #############################################
-# Link the executable lab1
+# Link the executable dirwalk
 
-build lab1: C_EXECUTABLE_LINKER__lab1_Debug CMakeFiles/lab1.dir/src/main.c.o CMakeFiles/lab1.dir/src/args.c.o CMakeFiles/lab1.dir/src/walk.c.o CMakeFiles/lab1.dir/src/options.c.o CMakeFiles/lab1.dir/src/paths.c.o
+build dirwalk: C_EXECUTABLE_LINKER__dirwalk_Debug CMakeFiles/dirwalk.dir/src/main.c.o CMakeFiles/dirwalk.dir/src/args.c.o CMakeFiles/dirwalk.dir/src/walk.c.o CMakeFiles/dirwalk.dir/src/options.c.o CMakeFiles/dirwalk.dir/src/paths.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/lab1.dir
+  OBJECT_DIR = CMakeFiles/dirwalk.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = lab1
-  TARGET_PDB = lab1.dbg
+  TARGET_FILE = dirwalk
+  TARGET_PDB = dirwalk.dbg
 
 
 #############################################
@@ -129,7 +129,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/simple_waveform/Documents/programming/4/osisp/lab1/cmake-build-debug
 
-build all: phony lab1
+build all: phony dirwalk
 
 # =============================================================================
 # Built-in targets
