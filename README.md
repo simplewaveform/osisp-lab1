@@ -80,9 +80,18 @@ If none of the `-l`, `-d`, or `-f` options are specified, the program will displ
    ./dirwalk -l
    ```
 
+
 ## Notes
 - The program uses POSIX-compliant functions (`opendir`, `readdir`, `lstat`, etc.) to ensure compatibility across Unix-like systems.
 - Sorting (`-s`) is locale-aware, meaning it respects the system's language and regional settings.
+- macOS-Specific Behavior
+The sorting feature (-s) relies on the system's implementation of strcoll. On macOS, this has the following behavior:
+Cyrillic Sorting:
+Cyrillic characters are sorted by their Unicode code points (similar to the C locale).
+This means that sorting may not follow language-specific rules for Cyrillic text.
+
+Recommendation:
+For correct locale-aware sorting (e.g., Russian alphabetical order), it is recommended to use Linux.
 
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
