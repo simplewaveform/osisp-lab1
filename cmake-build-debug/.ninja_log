@@ -20,3 +20,7 @@
 1	258	1739826834963230989	CMakeFiles/dirwalk.dir/src/walk.c.o	d86f7811a1c0b30c
 0	41	1739826937414149273	CMakeFiles/dirwalk.dir/src/paths.c.o	6ac61a4b79849cea
 41	188	1739826937560156518	dirwalk	cd606c4c7638e40b
+0	207	1739828279426739067	CMakeFiles/dirwalk.dir/src/options.c.o	a90e890ae140d9a0
+1	255	1739828279477564400	CMakeFiles/dirwalk.dir/src/paths.c.o	6ac61a4b79849cea
+2	32	1739828289658775832	CMakeFiles/dirwalk.dir/src/options.c.o	a90e890ae140d9a0
+32	74	1739828289698628379	dirwalk	cd606c4c7638e40b
