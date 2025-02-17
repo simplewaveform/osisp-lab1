@@ -86,7 +86,3 @@ If none of the `-l`, `-d`, or `-f` options are specified, the program will displ
 
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-Feel free to contribute, report issues, or suggest improvements!
